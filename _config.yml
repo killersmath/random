@@ -5,14 +5,6 @@ theme: jekyll-theme-caynan
 title: My Website
 author: Some Person
 
-# --- Logo --- #
-
-# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
-
-# Add a search button to the navbar
-post_search: true
-
 # --- Colours / background image --- #
 
 # navbar-col: "#EAEAEA"

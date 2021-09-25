@@ -1,24 +1,22 @@
 # Wordpress
 
-
 ## Links
 
 ### Wordress
 
-- https://vinta.ws/code/setup-scalable-wordpress-sites-on-kubernetes.html
-- https://github.com/histeriks/Kubernetes-wordpress-php-fpm-nginx/
-- https://github.com/kubernetes/ingress-nginx/issues/6602
-- https://medium.com/@harsh.manvar111/kubernetes-wordpress-php-fpm-nginx-73cb4f9aef02
+- <https://vinta.ws/code/setup-scalable-wordpress-sites-on-kubernetes.html>
+- <https://github.com/histeriks/Kubernetes-wordpress-php-fpm-nginx>
+- <https://github.com/kubernetes/ingress-nginx/issues/6602>
+- <https://medium.com/@harsh.manvar111/kubernetes-wordpress-php-fpm-nginx-73cb4f9aef02>
 
 ### Nginx
 
-- https://www.digitalocean.com/community/tutorials/how-to-deploy-a-php-application-with-kubernetes-on-ubuntu-16-04-pt
-- https://matthewpalmer.net/kubernetes-app-developer/articles/php-fpm-nginx-kubernetes.html
+- <https://www.digitalocean.com/community/tutorials/how-to-deploy-a-php-application-with-kubernetes-on-ubuntu-16-04-pt>
+- <https://matthewpalmer.net/kubernetes-app-developer/articles/php-fpm-nginx-kubernetes.html>
 
 ## How to generate a custom image
 
-- https://github.com/docker-library/wordpress/tree/master/latest/php8.0/fpm-alpine
-
+- <https://github.com/docker-library/wordpress/tree/master/latest/php8.0/fpm-alpine>
 
 ### Setup pre build
 
@@ -61,7 +59,6 @@ php.ini
 mkdir -p data/php/conf.d
 touch data/php/conf.d/php.ini
 ```
-
 
 ```ini
 file_uploads=On
